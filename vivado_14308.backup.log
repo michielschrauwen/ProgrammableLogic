@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jan 04 10:19:35 2017
+# Process ID: 14308
+# Current directory: D:/Bricks/Bricks
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11528 D:\Bricks\Bricks\project_1.xpr
+# Log file: D:/Bricks/Bricks/vivado.log
+# Journal file: D:/Bricks/Bricks\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Bricks/Bricks/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 794.074 ; gain = 117.492
+update_files -from_files D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V5.vhd -to_files D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V4.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V4.vhd' with file 'D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V5.vhd'.
+INFO: [filemgmt 20-1080] Importing file from 'D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V5.vhd' to 'D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V5.vhd'.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed Jan 04 10:24:31 2017] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Wed Jan 04 10:24:31 2017] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+open_hw

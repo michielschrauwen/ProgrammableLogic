@@ -1,0 +1,13 @@
+
+*** Running vivado
+    with args -log LCD.vds -m64 -mode batch -messageDb vivado.pb -notrace -source LCD.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source LCD.tcl -notrace
+ERROR: [Vivado 12-172] File or Directory 'D:/Xilinx/MATLAB/ANUPimage2coe/GameOver.coe' does not exist
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 11 12:45:22 2017...

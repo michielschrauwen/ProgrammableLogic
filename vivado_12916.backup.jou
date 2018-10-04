@@ -1,0 +1,108 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Dec 28 09:38:15 2016
+# Process ID: 12916
+# Current directory: D:/Bricks/Bricks
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2616 D:\Bricks\Bricks\project_1.xpr
+# Log file: D:/Bricks/Bricks/vivado.log
+# Journal file: D:/Bricks/Bricks\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Bricks/Bricks/project_1.xpr
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -noclean_dir 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

@@ -1,0 +1,98 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Dec 26 10:06:00 2016
+# Process ID: 13388
+# Current directory: D:/Bricks/Bricks/project_1.runs/impl_1
+# Command line: vivado.exe -log LCD.vdi -applog -messageDb vivado.pb -mode batch -source LCD.tcl -notrace
+# Log file: D:/Bricks/Bricks/project_1.runs/impl_1/LCD.vdi
+# Journal file: D:/Bricks/Bricks/project_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source LCD.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 36 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7z010clg400-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc]
+Finished Parsing XDC File [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 2 instances
+
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.080 . Memory (MB): peak = 450.160 ; gain = 4.473
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 117455c49
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 117455c49
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 839.652 ; gain = 0.004
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant Propagation | Checksum: 117455c49
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 839.652 ; gain = 0.004
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 68 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: de208cf8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 839.652 ; gain = 0.004
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 839.652 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: de208cf8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 839.652 ; gain = 0.004
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: de208cf8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 839.652 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+21 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 839.652 ; gain = 393.965
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 839.652 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Bricks/Bricks/project_1.runs/impl_1/LCD_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads

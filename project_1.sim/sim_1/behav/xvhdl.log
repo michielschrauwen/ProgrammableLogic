@@ -1,0 +1,47 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd" into library xpm
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/V_SYNC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity V_SYNC_1
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/H_SYNC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity H_SYNC_1
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/CLK_DELAY.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CLK_DELAY
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/LCD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LCD
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/Block_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Block_1
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/BLOCK_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity BLOCK_2
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/BALL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity BALL
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/DEFENSE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DEFENSE
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/MOVE_X_DIRECTION.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MOVE_X_DIRECTION
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/move_delay.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity move_delay
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/MOVE_Y_DIRECTION.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MOVE_Y_DIRECTION
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/FSM_GAME.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Y_BOUNCE_CHECK
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/X_BOUNCE_CHECK.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity X_BOUNCE_CHECK
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/MOVE_BAR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MOVE_BAR
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/imports/Xilinx/kcpsm6.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity kcpsm6
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/TOUCH_POSITIONS.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TOUCH_POSITIONS
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TOUCHSCREEN_COMMUNICATION
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sources_1/new/MOVE_TOUCHES.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MOVE_TOUCHES
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sim_1/new/V_SYNC_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity V_SYNC_1_TB
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sim_1/new/H_SYNC_1_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity H_SYNC_1_TB
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sim_1/new/CLK_DELAY_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CLK_DELAY_TB
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sim_1/new/LCD_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LCD_TB
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Xilinx/Projects/Bricks_6/project_1.srcs/sim_1/new/MOVE_X_DIRECTION_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MOVE_X_DIRECTION_TB

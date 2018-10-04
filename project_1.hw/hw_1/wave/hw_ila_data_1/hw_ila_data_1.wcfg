@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Bricks/Bricks/project_1.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="5623151fs"></ZoomEndTime>
+      <Cursor1Time time="622000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="19" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="X_POS" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">X_POS[8:0]</obj_property>
+      <obj_property name="ObjectShortName">X_POS[8:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="RED_OBUF" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">RED_OBUF[0:0]</obj_property>
+      <obj_property name="ObjectShortName">RED_OBUF[0:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="&lt;const0&gt;" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">&lt;const0&gt;</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="&lt;const1&gt;" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">&lt;const1&gt;</obj_property>
+      <obj_property name="ObjectShortName">&lt;const1&gt;</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="CLK_IBUF" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">CLK_IBUF</obj_property>
+      <obj_property name="ObjectShortName">CLK_IBUF</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="CLK_IBUF_BUFG" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">CLK_IBUF_BUFG</obj_property>
+      <obj_property name="ObjectShortName">CLK_IBUF_BUFG</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="DISP_EN_OBUF" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">DISP_EN_OBUF</obj_property>
+      <obj_property name="ObjectShortName">DISP_EN_OBUF</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="H_CE" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">H_CE</obj_property>
+      <obj_property name="ObjectShortName">H_CE</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="H_SYNC_OBUF" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">H_SYNC_OBUF</obj_property>
+      <obj_property name="ObjectShortName">H_SYNC_OBUF</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="p_1_in" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">p_1_in</obj_property>
+      <obj_property name="ObjectShortName">p_1_in</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="RED0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">RED0</obj_property>
+      <obj_property name="ObjectShortName">RED0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="RED0_inferred__0_i_4_n_0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">RED0_inferred__0_i_4_n_0</obj_property>
+      <obj_property name="ObjectShortName">RED0_inferred__0_i_4_n_0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="RED0_inferred__0_i_5_n_0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">RED0_inferred__0_i_5_n_0</obj_property>
+      <obj_property name="ObjectShortName">RED0_inferred__0_i_5_n_0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="RED_reg[7]_i_2_n_0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">RED_reg[7]_i_2_n_0</obj_property>
+      <obj_property name="ObjectShortName">RED_reg[7]_i_2_n_0</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="RESET_IBUF" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">RESET_IBUF</obj_property>
+      <obj_property name="ObjectShortName">RESET_IBUF</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="u1_n_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">u1_n_1</obj_property>
+      <obj_property name="ObjectShortName">u1_n_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="V_SYNC_OBUF" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">V_SYNC_OBUF</obj_property>
+      <obj_property name="ObjectShortName">V_SYNC_OBUF</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="VCC_2" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">VCC_2</obj_property>
+      <obj_property name="ObjectShortName">VCC_2</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="Vs_CE_int" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Vs_CE_int</obj_property>
+      <obj_property name="ObjectShortName">Vs_CE_int</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>

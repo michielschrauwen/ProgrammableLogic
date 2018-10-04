@@ -1,0 +1,765 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Dec 27 09:45:33 2016
+# Process ID: 12092
+# Current directory: D:/Bricks/Bricks
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12204 D:\Bricks\Bricks\project_1.xpr
+# Log file: D:/Bricks/Bricks/vivado.log
+# Journal file: D:/Bricks/Bricks\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Bricks/Bricks/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 727.832 ; gain = 109.598
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 09:47:10 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 09:47:10 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:57:03
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 771.668 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279786112A
+open_hw_target: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 803.949 ; gain = 32.281
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 09:52:27 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 09:52:27 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 09:55:12 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 09:55:12 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 10:02:13 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 10:02:13 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Dec 27 10:06:53 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+update_files -from_files D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V1.vhd -to_files D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/picoblaze_display_3.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/picoblaze_display_3.vhd' with file 'D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V1.vhd'.
+INFO: [filemgmt 20-1080] Importing file from 'D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V1.vhd' to 'D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V1.vhd'.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 10:16:52 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 10:16:52 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+reset_run impl_1 -noclean_dir 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 10:17:51 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 10:17:51 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 10:20:12 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 10:20:12 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 10:23:39 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 10:23:39 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 895.688 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 10:26:03 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 10:26:03 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 895.688 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 10:33:22 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 10:33:22 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Dec 27 10:35:30 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 10:35:30 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Dec 27 10:39:03 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Dec 27 10:39:32 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-3
+INFO: [Netlist 29-17] Analyzing 108 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7z010clg400-3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc]
+WARNING: [Vivado 12-584] No ports matched 'PLUS'. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLUS'. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'MIN'. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'MIN'. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 58 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 2 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 50 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 2 instances
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 1222.570 ; gain = 323.141
+set_property IOSTANDARD LVCMOS33 [get_ports [list {X_Y_VALUE_TOUCH[3]} {X_Y_VALUE_TOUCH[2]} {X_Y_VALUE_TOUCH[1]} {X_Y_VALUE_TOUCH[0]}]]
+set_property package_pin "" [get_ports [list  {X_Y_VALUE_TOUCH[2]}]]
+place_ports {X_Y_VALUE_TOUCH[3]} D18
+place_ports {X_Y_VALUE_TOUCH[2]} G14
+place_ports {X_Y_VALUE_TOUCH[1]} M15
+place_ports {X_Y_VALUE_TOUCH[0]} M14
+place_ports SELECT_X_Y T16
+set_property IOSTANDARD LVCMOS33 [get_ports [list SELECT_X_Y]]
+save_constraints
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.082 . Memory (MB): peak = 1600.082 ; gain = 0.000
+[Tue Dec 27 10:41:24 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 11:06:15 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 11:06:15 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1600.273 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 11:13:33 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 11:13:33 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1600.273 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 11:16:36 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 11:16:36 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1600.273 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+refresh_design
+INFO: [Netlist 29-17] Analyzing 111 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc]
+WARNING: [Vivado 12-584] No ports matched 'PLUS'. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PLUS'. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'MIN'. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'MIN'. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 1600.273 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 11:22:15 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 11:22:15 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 11:22:47 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 11:22:47 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279786112A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279786112A
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+update_files -from_files D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V2.vhd -to_files D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V1.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V1.vhd' with file 'D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V2.vhd'.
+INFO: [filemgmt 20-1080] Importing file from 'D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V2.vhd' to 'D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V2.vhd'.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 13:49:07 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 13:49:07 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1634.199 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+update_files -from_files D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V3.vhd -to_files D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V2.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V2.vhd' with file 'D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V3.vhd'.
+INFO: [filemgmt 20-1080] Importing file from 'D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V3.vhd' to 'D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V3.vhd'.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 13:54:57 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 13:54:57 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 13:56:47 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 13:56:47 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1634.199 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 14:00:30 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 14:00:30 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1634.199 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 14:12:14 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 14:12:14 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1634.199 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+update_files -from_files D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V4.vhd -to_files D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V3.vhd -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V3.vhd' with file 'D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V4.vhd'.
+INFO: [filemgmt 20-1080] Importing file from 'D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V4.vhd' to 'D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V4.vhd'.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 14:20:10 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 14:20:10 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279786112A
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1634.199 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279786112A
+open_hw_target: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1634.199 ; gain = 0.000
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Dec 27 14:54:40 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-3
+INFO: [Netlist 29-17] Analyzing 114 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc]
+Finished Parsing XDC File [D:/Bricks/Bricks/project_1.srcs/constrs_1/new/screen_IO.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 58 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 2 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 50 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 2 instances
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.113 . Memory (MB): peak = 1634.199 ; gain = 0.000
+[Tue Dec 27 14:55:50 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 15:57:38 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 15:57:38 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 16:01:29 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 16:01:29 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 16:03:29 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 16:03:29 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1634.199 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 16:26:10 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 16:26:10 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 16:29:09 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 16:29:09 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1634.199 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1634.199 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1634.199 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1634.199 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 16:52:20 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 16:52:20 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 17:08:37 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 17:08:37 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 17:13:33 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 17:13:33 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 17:25:22 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 17:25:22 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 17:31:53 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 17:31:53 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Tue Dec 27 18:00:42 2016] Launched synth_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log
+[Tue Dec 27 18:00:42 2016] Launched impl_1...
+Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1637.617 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279786112A
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 27 18:10:52 2016...

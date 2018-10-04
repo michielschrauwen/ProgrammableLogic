@@ -1,0 +1,2460 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 1436
+
+Current time: 	1/9/17 7:31:26 PM CET
+Time zone: 	Central European Time (Europe/Berlin)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	Pieter Van Petegem
+User home directory: C:/Users/Pieter Van Petegem
+User working directory: D:/Bricks/Bricks
+User country: 	BE
+User language: 	nl
+User locale: 	nl_BE
+
+RDI Base root directory: D:/Xilinx/Vivado
+RDI Data directory: D:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: D:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/Pieter Van Petegem/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/Pieter Van Petegem/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	171 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 411 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 54 MB (+54619kb) [00:00:09]
+// [Engine Memory]: 375 MB (+241240kb) [00:00:09]
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: D:\Bricks\Bricks\project_1.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Bricks/Bricks/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 415 MB. GUI used memory: 27 MB. Current time: 1/9/17 7:31:28 PM CET
+// [Engine Memory]: 416 MB (+23374kb) [00:00:14]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 480 MB (+45843kb) [00:00:19]
+// [GUI Memory]: 94 MB (+38414kb) [00:00:20]
+// [Engine Memory]: 520 MB (+16176kb) [00:00:20]
+// [Engine Memory]: 558 MB (+12732kb) [00:00:21]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project D:/Bricks/Bricks/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 99 MB (+816kb) [00:00:23]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1; location: D:/Bricks/Bricks; part: xc7z010clg400-3
+// [Engine Memory]: 605 MB (+20038kb) [00:00:24]
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 762.891 ; gain = 137.320 
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+closeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// PAPropertyPanels.initPanels (blk_mem_gen_0.xci) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u16 - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 17, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u16 - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 17, false); // z:k (G:JPanel, cv:JFrame)
+// [GUI Memory]: 108 MB (+3950kb) [00:00:53]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u16 - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 17); // z:k (G:JPanel, cv:JFrame)
+// G:be (cv:JFrame): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, G:be)
+dismissDialog("Show IP Hierarchy"); // G:be (cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u16 - blk_mem_gen_0 (blk_mem_gen_0.xci)]", 17, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // ab:JMenu (am:JPopupMenu, Popup:JWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af:JMenuItem (am:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // h:JCheckBox (JPanel:JComponent, aB:g): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aB:g)
+// 'c' command handler elapsed time: 6 seconds
+// TclEventType: RUN_MODIFY
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: remove_files -fileset blk_mem_gen_0 D:/Bricks/Bricks/project_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci 
+// TclEventType: RUN_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+// bL:g (aB:g):  Remove Sources : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: INFO: [Project 1-386] Moving file 'D:/Bricks/Bricks/project_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci' from fileset 'blk_mem_gen_0' to fileset 'sources_1'. 
+// Tcl Message: file delete -force D:/Bricks/Bricks/project_1.srcs/sources_1/ip/blk_mem_gen_0 
+// Tcl Message: file delete -force D:/Bricks/Bricks/project_1.ip_user_files/ip/blk_mem_gen_0 D:/Bricks/Bricks/project_1.ip_user_files/sim_scripts/blk_mem_gen_0 
+dismissDialog("Remove Sources"); // bL:g (aB:g)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// [GUI Memory]: 117 MB (+3682kb) [00:01:09]
+selectCodeEditor("LCD.vhd", 103, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 94, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 94, 214, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("LCD.vhd", 94, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 57 seconds
+selectCodeEditor("LCD.vhd", 85, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 476, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 74, 92); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 363, 158); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 87, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 83, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 83, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 197, 289); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 125 MB (+2247kb) [00:02:57]
+// Elapsed time: 63 seconds
+selectCodeEditor("LCD.vhd", 192, 282); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Jan 09 19:35:16 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 19:35:16 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 132 MB (+737kb) [00:06:54]
+// Elapsed time: 239 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// HMemoryUtils.trashcanNow. Engine heap size: 629 MB. GUI used memory: 42 MB. Current time: 1/9/17 7:39:19 PM CET
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bL:g (cv:JFrame):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.2   **** Build date : Jun  2 2016-16:57:03     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 797.609 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279786112A 
+// TclEventType: HW_DEVICE_CHANGE
+// [Engine Memory]: 680 MB (+46863kb) [00:08:21]
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 819.262 ; gain = 21.652 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0). 
+// Elapsed time: 17 seconds
+dismissDialog("Auto Connect"); // bL:g (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("LCD.vhd", 330, 234); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 36 seconds
+selectCodeEditor("LCD.vhd", 26, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "LCD.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 827, 109); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "LCD.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 25, 111); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 229, 128); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 281, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 253, 218); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 696 MB. GUI used memory: 42 MB. Current time: 1/9/17 7:41:03 PM CET
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+dismissDialog("Save Constraints"); // bL:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 19:41:04 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 73 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("LCD.vhd", 195, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 277, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 19:43:03 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 19:43:03 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// [Engine Memory]: 714 MB (+36kb) [00:12:50]
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 106 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 861.070 ; gain = 0.000 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 7 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("LCD.vhd", 195, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 260, 124); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 404, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 42, 108); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 26, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "LCD.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 213, 128); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "LCD.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 27, 141); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 405, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 303, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, G:be)
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+selectCodeEditor("LCD.vhd", 297, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("LCD.vhd", 256, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 213, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 278, 160); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 19:46:07 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 19:46:07 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 108 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 49 seconds
+selectCodeEditor("LCD.vhd", 210, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 288, 158); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+// [Engine Memory]: 750 MB (+541kb) [00:17:44]
+// HMemoryUtils.trashcanNow. Engine heap size: 750 MB. GUI used memory: 45 MB. Current time: 1/9/17 7:48:58 PM CET
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 19:48:59 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 19:48:59 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 50 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u11 - Y_BOUNCE_CHECK - Behavioral (FSM_GAME.vhd)]", 12, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u11 - Y_BOUNCE_CHECK - Behavioral (FSM_GAME.vhd)]", 12, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 74 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("LCD.vhd", 310, 260); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("LCD.vhd", 109, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u10 - MOVE_Y_DIRECTION - Behavioral (MOVE_Y_DIRECTION.vhd)]", 11, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u10 - MOVE_Y_DIRECTION - Behavioral (MOVE_Y_DIRECTION.vhd)]", 11, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FSM_GAME.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LCD.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 47 seconds
+selectCodeEditor("LCD.vhd", 1, 129); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("LCD.vhd", 0, 75); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 30, 220, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // af:JMenuItem (am:JPopupMenu, Popup:JWindow)
+selectCodeEditor("LCD.vhd", 191, 220); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("LCD.vhd", 195, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("LCD.vhd", 27, 191); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "LCD.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 29, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "LCD.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 390, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 235, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 194, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 168, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 30, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 0, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 55, 241, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // af:JMenuItem (am:JPopupMenu, Popup:JWindow)
+selectCodeEditor("LCD.vhd", 182, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 19:54:12 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 19:54:12 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 54 seconds
+selectCodeEditor("LCD.vhd", 183, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("LCD.vhd", 205, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 44 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("LCD.vhd", 187, 147); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 208, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 281, 193); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'ck' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 19:57:11 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 19:57:11 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+selectCodeEditor("LCD.vhd", 233, 257); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STEP_COMPLETED
+// ap:G (cv:JFrame): Implementation Failed: addNotify
+// Elapsed time: 64 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ap:G (cv:JFrame)
+selectCodeEditor("LCD.vhd", 187, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 192, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("LCD.vhd", 186, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 185, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 54, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 19:59:00 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 19:59:00 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 126 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+selectCodeEditor("LCD.vhd", 67, 177); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 218, 216); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("LCD.vhd", 57, 128); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 263, 296); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 20:01:55 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 20:01:55 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+selectCodeEditor("LCD.vhd", 278, 301); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 262, 319); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 280, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 250, 316); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 272, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 251, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 274, 303); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 261, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 280, 302); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 265, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 283, 300); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 56 seconds
+selectCodeEditor("LCD.vhd", 117, 265); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FSM_GAME.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 258, 177); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 257, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("FSM_GAME.vhd", 259, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 376, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// Tcl Message: refresh_hw_device: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 920.004 ; gain = 0.000 
+// 'A' command handler elapsed time: 10 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LCD.vhd", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("LCD.vhd", 257, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 289, 237); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("LCD.vhd", 207, 203); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("LCD.vhd", 434, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("LCD.vhd", 492, 241); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 119, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 197, 300); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 21 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 188, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 20:05:55 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 20:05:55 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 215 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("LCD.vhd", 27, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 189, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 50, 224); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 201, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 49 seconds
+selectCodeEditor("LCD.vhd", 73, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 213, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("LCD.vhd", 252, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 500, 285); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 20:11:36 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 20:11:36 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (r:JPanel, cv:JFrame)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_YOU_ABOUT_TO_CANCEL_YOUR_RUNNING_Delete Files", "Delete Files"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+selectCodeEditor("LCD.vhd", 216, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 195, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 230, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 201, 175); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 253, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 213, 228); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 186, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 59, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 260, 240); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): No Implementation Results Available: addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // G:be (cv:JFrame)
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 20:12:12 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 20:12:12 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 67 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 920.004 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 7 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("LCD.vhd", 209, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("LCD.vhd", 267, 234); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 195, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("LCD.vhd", 267, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("LCD.vhd", 188, 75); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 190, 76); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FSM_GAME.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 374, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 257, 245); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 154, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 300, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 419, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 535, 255); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 412, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u1 - V_SYNC_1 - Behavioral (V_SYNC.vhd)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u1 - V_SYNC_1 - Behavioral (V_SYNC.vhd)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("V_SYNC.vhd", 311, 381); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("V_SYNC.vhd", 146, 415); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 245, 413); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 165, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 257, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor("V_SYNC.vhd", 255, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 165, 140); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 212, 139); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 174, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 157, 278); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 249, 300); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("V_SYNC.vhd", 208, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 245, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 114, 375); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 246, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 209, 398); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("V_SYNC.vhd", 120, 431); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 70 seconds
+selectCodeEditor("V_SYNC.vhd", 301, 434); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u2 - H_SYNC_1 - Behavioral (H_SYNC.vhd)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u2 - H_SYNC_1 - Behavioral (H_SYNC.vhd)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("H_SYNC.vhd", 309, 286); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 278, 300); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 269, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 246, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 750 MB. GUI used memory: 50 MB. Current time: 1/9/17 8:18:59 PM CET
+selectCodeEditor("H_SYNC.vhd", 210, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 259, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 151, 265); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 138, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 237, 317); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 215, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 229, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 237, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "H_SYNC.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 101, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "H_SYNC.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 269, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 227, 387); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 233, 419); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("H_SYNC.vhd", 221, 460); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 221, 384); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 216, 462); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 218, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("H_SYNC.vhd", 218, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 217, 397); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 313, 399); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 211, 397); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 128, 397); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 232, 426); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 223, 398); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 206, 399); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("H_SYNC.vhd", 232, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 209, 384); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("H_SYNC.vhd", 212, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u3 - CLK_DELAY - Behavioral (CLK_DELAY.vhd)]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u3 - CLK_DELAY - Behavioral (CLK_DELAY.vhd)]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("CLK_DELAY.vhd", 233, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LCD.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("LCD.vhd", 208, 285); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 274, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 313, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 301, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 308, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 308, 280, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "DCLK"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "DCLK"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "DCLK"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "DCLK"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "DCLK"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "DCLK"); // o:ao (az:f, cv:JFrame)
+// Elapsed time: 47 seconds
+selectCodeEditor("LCD.vhd", 250, 124); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("LCD.vhd", 352, 177); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 394, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 394, 178, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("LCD.vhd", 394, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 394, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 397, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 465, 180); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 391, 180); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 391, 180, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CE_F"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CE_F"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CE_F"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CE_F"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CE_F"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CE_F"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "CE_F"); // o:ao (az:f, cv:JFrame)
+selectCodeEditor("LCD.vhd", 315, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 22, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// au:y (cv:JFrame): Implementation is Out-of-date: addNotify
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.StaleRunDialog_NO, "No"); // a:JButton (JPanel:JComponent, au:y)
+// 'dG' command handler elapsed time: 5 seconds
+dismissDialog("Implementation is Out-of-date"); // au:y (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// G:be (cv:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, G:be)
+dismissDialog("Run Synthesis"); // G:be (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_NO, "No"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Mon Jan 09 20:23:04 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 18); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, screen_IO.xdc]", 20, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, screen_IO.xdc]", 20, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("screen_IO.xdc", 324, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("screen_IO.xdc", 185, 345); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("screen_IO.xdc", 302, 348); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Implementation Completed: addNotify
+// Elapsed time: 100 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN, "Open Implemented Design"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// au:y (cv:JFrame): Implementation is Out-of-date: addNotify
+selectButton(PAResourceQtoS.StaleRunDialog_NO, "No"); // a:JButton (JPanel:JComponent, au:y)
+dismissDialog("Implementation is Out-of-date"); // au:y (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectCodeEditor("CLK_DELAY.vhd", 209, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("CLK_DELAY.vhd", 7, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 12, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 16, 328); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 7, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 233, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 194, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 212, 300); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 229, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 201, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 235, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("CLK_DELAY.vhd", 239, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 229, 379); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 220, 411); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 225, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 237, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 36 seconds
+selectCodeEditor("CLK_DELAY.vhd", 237, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 155, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 260, 416); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 237, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 114, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 217, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 158, 209); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 142, 242); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 154, 248); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 113, 194); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 154, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 45 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CLK_DELAY.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("LCD.vhd", 308, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 314, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 389, 319); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 520, 290); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 465, 296); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 314, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 475, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 393, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 410, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 510, 297); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 466, 297); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 474, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 484, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 346, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 243, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 351, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 412, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 527, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 462, 301); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 474, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LCD.vhd", 6); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("CLK_DELAY.vhd", 237, 381); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 73 seconds
+selectCodeEditor("CLK_DELAY.vhd", 209, 173); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 109 seconds
+selectCodeEditor("CLK_DELAY.vhd", 197, 371); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 181, 348); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 173, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 196, 348); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 181, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 205, 381); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("CLK_DELAY.vhd", 195, 350); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 159 seconds
+selectCodeEditor("CLK_DELAY.vhd", 242, 428); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("CLK_DELAY.vhd", 265, 125); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 258, 157); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 270, 175); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 260, 206); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 238, 236); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 238, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 237, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 237, 288); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 237, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 242, 324); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 249, 349); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 257, 378); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 315, 417); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 278, 442); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 267, 463); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 256, 482); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 316, 409); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 295, 333); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("CLK_DELAY.vhd", 294, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 294, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 87 seconds
+selectCodeEditor("CLK_DELAY.vhd", 237, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 168, 349); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 237, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 244, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 241, 340); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 249, 348); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("CLK_DELAY.vhd", 209, 414); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u4 - Block_1 - Behavioral (Block_1.vhd)]", 5, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u4 - Block_1 - Behavioral (Block_1.vhd)]", 5, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u4 - Block_1 - Behavioral (Block_1.vhd)]", 5, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("Block_1.vhd", 329, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Block_1.vhd", 358, 234); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Block_1.vhd", 100, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Block_1.vhd", 89, 322); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Block_1.vhd", 131, 291); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Block_1.vhd", 102, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Block_1.vhd", 145, 301); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Block_1.vhd", 155, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Block_1.vhd", 195, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("Block_1.vhd", 207, 379); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Block_1.vhd", 514, 281); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Block_1.vhd", 534, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Block_1.vhd", 660, 177); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u5 - BLOCK_2 - Behavioral (BLOCK_2.vhd)]", 6, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u5 - BLOCK_2 - Behavioral (BLOCK_2.vhd)]", 6, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u6 - BALL - Behavioral (BALL.vhd)]", 7, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u6 - BALL - Behavioral (BALL.vhd)]", 7, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("BALL.vhd", 191, 258); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("BALL.vhd", 203, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("BALL.vhd", 193, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("BALL.vhd", 539, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("BALL.vhd", 282, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("BALL.vhd", 268, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("BALL.vhd", 272, 260); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("BALL.vhd", 284, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("BALL.vhd", 197, 283); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("BALL.vhd", 253, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("BALL.vhd", 476, 265); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("BALL.vhd", 88, 353); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("BALL.vhd", 106, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("BALL.vhd", 114, 420); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u7 - DEFENSE - Behavioral (DEFENSE.vhd)]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u7 - DEFENSE - Behavioral (DEFENSE.vhd)]", 8, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("DEFENSE.vhd", 286, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DEFENSE.vhd", 168, 296); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DEFENSE.vhd", 223, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DEFENSE.vhd", 463, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DEFENSE.vhd", 276, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("DEFENSE.vhd", 277, 298, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("DEFENSE.vhd", 509, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("DEFENSE.vhd", 219, 317); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u8 - MOVE_X_DIRECTION - Behavioral (MOVE_X_DIRECTION.vhd)]", 9, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u8 - MOVE_X_DIRECTION - Behavioral (MOVE_X_DIRECTION.vhd)]", 9, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MOVE_X_DIRECTION.vhd", 8); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BLOCK_2.vhd", 10); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u9 - move_delay - Behavioral (move_delay.vhd)]", 10, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u9 - move_delay - Behavioral (move_delay.vhd)]", 10, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("move_delay.vhd", 245, 376); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 243, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("move_delay.vhd", 270, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 245, 389); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 241, 402); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u10 - MOVE_Y_DIRECTION - Behavioral (MOVE_Y_DIRECTION.vhd)]", 11, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u10 - MOVE_Y_DIRECTION - Behavioral (MOVE_Y_DIRECTION.vhd)]", 11, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u8 - MOVE_X_DIRECTION - Behavioral (MOVE_X_DIRECTION.vhd)]", 9, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u8 - MOVE_X_DIRECTION - Behavioral (MOVE_X_DIRECTION.vhd)]", 9, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 241, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 122, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 83, 191); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 29, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 212, 255); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 184, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 113, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 186, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MOVE_X_DIRECTION.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectCodeEditor("LCD.vhd", 617, 316); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 588, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 588, 312, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("LCD.vhd", 586, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 586, 314, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MOVE_RIGHT"); // o:ao (az:f, cv:JFrame)
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u8 - MOVE_X_DIRECTION - Behavioral (MOVE_X_DIRECTION.vhd)]", 9, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u8 - MOVE_X_DIRECTION - Behavioral (MOVE_X_DIRECTION.vhd)]", 9, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 290, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 145, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 159, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 289, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 357, 326); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 188, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 349, 325); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 39 seconds
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 202, 381); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 305, 382); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 281, 417); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 128, 416); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 197, 348); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 245, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 279, 419); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 237, 415); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 121, 424); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 238, 415); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 212, 348); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 213, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 210, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 209, 345); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 280, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 154, 414); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 85, 57); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 114, 72); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 205, 76); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 139, 83); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 213, 72); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 143, 78); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 196, 77); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 108, 48); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 40, 99); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 105, 111); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 353, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 329, 206); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 354, 173); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 337, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 297, 414); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 156, 417); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 286, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 171, 175); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 176, 177); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 236, 194); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 44, 55); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 45, 60); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 373, 55); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 337, 57); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 357, 51); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 359, 62); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 173, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 273, 382); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 178, 375); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 290, 381); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 185, 379); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_X_DIRECTION.vhd", 274, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u9 - move_delay - Behavioral (move_delay.vhd)]", 10, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u9 - move_delay - Behavioral (move_delay.vhd)]", 10, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("move_delay.vhd", 249, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 201, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 132, 228); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 206, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 243, 269); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 179, 281); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 750 MB. GUI used memory: 49 MB. Current time: 1/9/17 8:48:59 PM CET
+selectCodeEditor("move_delay.vhd", 199, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("LCD.vhd", 82, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 408, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 475, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 406, 157); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 490, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 226, 158); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 223, 260); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 220, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 227, 258); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 229, 245); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 239, 234); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("LCD.vhd", 186, 283); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 229, 278); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 230, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 210, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 650, 42); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 146, 43); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "LCD.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 712, 40); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 750, 58); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 148, 59); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "LCD.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 554, 67); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 531, 73); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u9 - move_delay - Behavioral (move_delay.vhd)]", 10, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u10 - MOVE_Y_DIRECTION - Behavioral (MOVE_Y_DIRECTION.vhd)]", 11, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u10 - MOVE_Y_DIRECTION - Behavioral (MOVE_Y_DIRECTION.vhd)]", 11, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u9 - move_delay - Behavioral (move_delay.vhd)]", 10, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u9 - move_delay - Behavioral (move_delay.vhd)]", 10, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("move_delay.vhd", 217, 370); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 176, 283); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 140, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 191, 346); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("move_delay.vhd", 187, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 245, 346); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 162, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 178, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 197, 370); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 202, 397); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 280, 140); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 244, 257); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 257, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("move_delay.vhd", 161, 273); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 109, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 186, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 234, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 180, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 161, 281); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 152, 343); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 166, 370); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 204, 373); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 213, 402); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 174, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 194, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 210, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 210, 349); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 203, 358); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 217, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 201, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("move_delay.vhd", 213, 352); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u10 - MOVE_Y_DIRECTION - Behavioral (MOVE_Y_DIRECTION.vhd)]", 11, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u10 - MOVE_Y_DIRECTION - Behavioral (MOVE_Y_DIRECTION.vhd)]", 11, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 284, 226); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 298, 240); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 237, 352); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 233, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 244, 244); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 240, 244, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 289, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 232, 245); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 297, 252); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 340, 265); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 237, 349); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 287, 349); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 229, 244); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 303, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 234, 244); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 234, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 237, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 281, 244); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 340, 265); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 313, 370); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 313, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 310, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_Y_DIRECTION.vhd", 321, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u11 - Y_BOUNCE_CHECK - Behavioral (FSM_GAME.vhd)]", 12, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u11 - Y_BOUNCE_CHECK - Behavioral (FSM_GAME.vhd)]", 12, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("FSM_GAME.vhd", 300, 369); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 186, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 30, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 40, 191); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 123, 194); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 64, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 3, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 88, 274); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 214, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 20, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 109, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 70, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 146, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 94, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 242, 188); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 90, 180); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 65 seconds
+selectCodeEditor("FSM_GAME.vhd", 105, 72); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 230, 75); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 230, 75); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 290, 77); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 286, 77); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 15 seconds
+selectCodeEditor("LCD.vhd", 521, 304); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 519, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 519, 315, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MOVE_UP"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MOVE_UP"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "MOVE_UP"); // o:ao (az:f, cv:JFrame)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LCD.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 323, 119); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 65 seconds
+selectCodeEditor("FSM_GAME.vhd", 310, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 311, 129); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 306, 90); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 312, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 313, 96); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 309, 135); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 314, 99); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 313, 128); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 310, 86); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 308, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 312, 98); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 309, 129); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 313, 93); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 315, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 318, 98); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 314, 129); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 316, 102); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 314, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 310, 103); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 312, 94); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 299, 91); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 124, 158); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 101, 165); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 103, 156); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 306, 164); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("FSM_GAME.vhd", 315, 204); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 277, 167); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 275, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 317, 185); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 316, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 310, 180); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 314, 204); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 317, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 318, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 317, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 314, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 315, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 318, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 314, 174); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 311, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 310, 187); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 314, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 316, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("FSM_GAME.vhd", 293, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("FSM_GAME.vhd", 270, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 320, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 330, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 318, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 325, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 108, 252); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 220, 235); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 226, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 381, 238); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 224, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("FSM_GAME.vhd", 222, 242); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 419, 245); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("FSM_GAME.vhd", 424, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 318, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 322, 291); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 267, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 242, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 369, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("FSM_GAME.vhd", 319, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 313, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 319, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 301, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("FSM_GAME.vhd", 318, 379); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 326, 380); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("FSM_GAME.vhd", 325, 388); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 322, 409); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 103, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 229, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 303, 415); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 313, 417); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 286, 398); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 286, 399); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 80, 401); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 305, 403); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 285, 399); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 25, 393); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 294, 398); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 49, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 73, 395); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 37, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 178, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 84, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 60, 333); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 178, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 65, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 186, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 128, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 209, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 315, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 312, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 319, 175); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 197, 413); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 195, 423); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 106, 416); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 218, 421); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 316, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 199, 477); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 199, 462); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 212, 411); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 138, 228); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 253, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 106, 189); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 234, 191); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FSM_GAME.vhd", 249, 388); // bH:N (JPanel:JComponent, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u12 - X_BOUNCE_CHECK - Behavioral (X_BOUNCE_CHECK.vhd)]", 13, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u12 - X_BOUNCE_CHECK - Behavioral (X_BOUNCE_CHECK.vhd)]", 13, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 15 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 57, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 54, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 207, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 277, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 315, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 55, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 55, 282); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 141, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 303, 346); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 184, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 54, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 28, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 58, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 10, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 56, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 129, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 116 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 119, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 54, 202); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 25, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 69, 191); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 95, 193); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 127, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 142, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 202, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 143, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 125, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 312, 354); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 26, 193); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 65, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 63, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 71, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 439, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 338, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 311, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 36 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 134, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 318, 147); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 223, 89); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 302, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 337, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 319, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 302, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 318, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 322, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 328, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 418, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 357, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 342, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 352, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 328, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 418, 224); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 309, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 414, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 414, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 322, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 316, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 317, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 322, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 338, 286); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 232 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 318, 283); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 231, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 414, 260); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 52 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 307, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 410, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 275, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 254, 395); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 314, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 270, 364); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 312, 380); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 312, 411); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 325, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 311, 451); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 67 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 338, 452); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 327, 450); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 326, 417); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 318, 455); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 320, 415); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 315, 451); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 322, 408); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 310, 452); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 317, 414); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 313, 446); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 315, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 311, 452); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 60 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 314, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 101, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 750 MB. GUI used memory: 47 MB. Current time: 1/9/17 9:18:59 PM CET
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 104, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 172, 328); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 286, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 298, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 206, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 222, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 274, 160); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 259, 124); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 305, 120); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 362, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 335, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 362, 317); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 184, 301); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 348, 319); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 287, 160); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 350, 193); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 262, 361); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 215, 350); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 78, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 104, 352); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 308, 350); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 82, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 184, 303); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 123, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 217, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 107, 74); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("X_BOUNCE_CHECK.vhd", 198, 185); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u13 - MOVE_BAR - Behavioral (MOVE_BAR.vhd)]", 14, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u13 - MOVE_BAR - Behavioral (MOVE_BAR.vhd)]", 14, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("MOVE_BAR.vhd", 186, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_BAR.vhd", 305, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_BAR.vhd", 314, 364); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_BAR.vhd", 301, 360); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("MOVE_BAR.vhd", 90, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u15 - MOVE_TOUCHES - Behavioral (MOVE_TOUCHES.vhd)]", 16, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u15 - MOVE_TOUCHES - Behavioral (MOVE_TOUCHES.vhd)]", 16, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd)]", 15, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectCodeEditor("MOVE_TOUCHES.vhd", 251, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_TOUCHES.vhd", 247, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_TOUCHES.vhd", 71, 283); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_TOUCHES.vhd", 170, 282); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_TOUCHES.vhd", 305, 326); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_TOUCHES.vhd", 188, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_TOUCHES.vhd", 235, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_TOUCHES.vhd", 237, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_TOUCHES.vhd", 309, 323); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 45 seconds
+selectCodeEditor("MOVE_TOUCHES.vhd", 168, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("MOVE_TOUCHES.vhd", 270, 379); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("MOVE_TOUCHES.vhd", 121, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("LCD.vhd", 240, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 234, 397); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 123, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 97, 63); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 100, 63); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 88, 80); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 100, 80); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 102, 111); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 114, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 94, 147); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 94, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 92, 177); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 96, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 89, 175); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 97, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 93, 175); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 97, 160); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 91, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 96, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("LCD.vhd", 103, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 95, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 90, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 103, 230); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 99, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 102, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 102, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 99, 244); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 107, 258); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 103, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 59 seconds
+selectCodeEditor("LCD.vhd", 233, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 270, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 86 seconds
+selectCodeEditor("LCD.vhd", 362, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 118, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 161, 320); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 102, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 264, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 139, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 163, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 163, 311, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 27 seconds
+selectCodeEditor("LCD.vhd", 94, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 89, 328); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 87, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 87, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 92, 348); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 107, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 92, 320); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 93, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 93, 344); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 88, 368); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 95, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 97, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 88, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 90, 337); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 90, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 89, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("LCD.vhd", 98, 382); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 243, 382); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("LCD.vhd", 269, 427); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 111 seconds
+selectCodeEditor("LCD.vhd", 155, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 248, 297); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 169, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 70, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 102, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("LCD.vhd", 26, 129); // bH:N (JPanel:JComponent, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectCodeEditor("LCD.vhd", 27, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 47, 175); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 277, 240); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 70, 78); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 178, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("LCD.vhd", 202, 59); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u1 - V_SYNC_1 - Behavioral (V_SYNC.vhd)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // x:Y (w:G, cv:JFrame)
+selectCodeEditor("LCD.vhd", 386, 244); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("LCD.vhd", 132, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 153, 260); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 50, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 275, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("LCD.vhd", 90, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 270, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 264, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 204, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 287, 223); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 46, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("LCD.vhd", 589, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 606, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 705, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 694, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 634, 232); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 696, 232); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 588, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 546, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 302, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 306, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 402, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 583, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 535, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 44 seconds
+selectCodeEditor("LCD.vhd", 84, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 74, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 66, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 67, 324); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 210, 347); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 105, 301); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 178, 297); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 210, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 187, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 187, 299, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("LCD.vhd", 291, 103); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 295, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 294, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 295, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 295, 108); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 296, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 300, 90); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 294, 119); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 297, 107); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("LCD.vhd", 34, 398); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 34, 398); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 34, 398, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "DISP_EN"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "DISP_EN"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "DISP_EN"); // o:ao (az:f, cv:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("LCD.vhd", 179, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 54, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 85, 187); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 57, 272); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 52, 235); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 51, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 162, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 58, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 157, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 144, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 192, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 163, 278); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 159, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 151, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 185, 369); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 188, 379); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 186, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 105, 109); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 110, 113); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("LCD.vhd", 134, 104); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 34, 111); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 146, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 50, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 46, 384); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("LCD.vhd", 274, 136); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 313, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("LCD.vhd", 2, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 51 seconds
+selectCodeEditor("LCD.vhd", 240, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 128, 333); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 191, 344); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 146, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 190, 343); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 128, 380); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 134, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 182, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("LCD.vhd", 192, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 206, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 198, 306); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 197, 272); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 191, 304); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 202, 325); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 198, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 202, 282); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 194, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 208, 338); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 194, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 201, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 196, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 209, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 198, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 207, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 199, 306); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 210, 325); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 197, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 201, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 185, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 199, 325); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 194, 302); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 197, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 175, 321); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 194, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 191, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 198, 288); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 191, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 201, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 197, 305); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 202, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 186, 306); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 202, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 196, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 199, 272); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 207, 325); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 183, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 197, 283); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 194, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 219, 325); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 750 MB. GUI used memory: 45 MB. Current time: 1/9/17 9:48:59 PM CET
+// Elapsed time: 1277 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd)]", 15, true); // z:k (G:JPanel, cv:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd)]", 15); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd), program_rom - Touchscreen_Communication - low_level_definition (TOUCHES_ASM_V5.vhd)]", 17, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd), program_rom - Touchscreen_Communication - low_level_definition (TOUCHES_ASM_V5.vhd)]", 17, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd)]", 15, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd)]", 15, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 25 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd)]", 15); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd), program_rom - Touchscreen_Communication - low_level_definition (TOUCHES_ASM_V5.vhd)]", 17, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd), program_rom - Touchscreen_Communication - low_level_definition (TOUCHES_ASM_V5.vhd)]", 17, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd), processor - kcpsm6 - low_level_definition (kcpsm6.vhd)]", 16, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd), processor - kcpsm6 - low_level_definition (kcpsm6.vhd)]", 16, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd)]", 15, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd)]", 15, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("TOUCH_POSITIONS.vhd", 302, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 185, 168); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("TOUCH_POSITIONS.vhd", 261, 337); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 263, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 266, 331, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("TOUCH_POSITIONS.vhd", 264, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd)]", 15); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd), u14 - TOUCH_POSITIONS - Behavioral (TOUCH_POSITIONS.vhd), program_rom - Touchscreen_Communication - low_level_definition (TOUCHES_ASM_V5.vhd)]", 17, false); // z:k (G:JPanel, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 284, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 229, 326); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 270, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 262, 326); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("TOUCH_POSITIONS.vhd", 229, 278); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 230, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 234, 283); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 224, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 228, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 177, 328); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 256, 333); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 230, 348); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 280, 354); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 307, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 322, 309); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 310, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 120, 175); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("TOUCH_POSITIONS.vhd", 304, 183); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 234, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 311, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 233, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 240, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 237, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 313, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 66 seconds
+selectCodeEditor("TOUCH_POSITIONS.vhd", 358, 258); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("TOUCH_POSITIONS.vhd", 360, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 364, 260); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 344, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 356, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 357, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 357, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 348, 269); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 346, 276); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 359, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 352, 226); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 355, 258); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 358, 221); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 352, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 358, 222); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 355, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 355, 224); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 352, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 353, 230); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 354, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 357, 223); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 357, 271); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 358, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 353, 271); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 358, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 359, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 363, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 360, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 362, 217); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 361, 267); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 361, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 364, 228); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("TOUCH_POSITIONS.vhd", 374, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 356, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 355, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("TOUCH_POSITIONS.vhd", 340, 361); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 343, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 142, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 146, 366); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 347, 364); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 257, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 211, 368); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 222, 363); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 351, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 374, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 234, 326); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 254, 334); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("TOUCH_POSITIONS.vhd", 301, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 300, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 304, 283); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 229, 275); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 6, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 10, 206); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 240, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 222, 440); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 206, 459); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 222, 434); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 239, 391); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("TOUCH_POSITIONS.vhd", 254, 354); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("LCD.vhd", 130, 267); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 292, 259); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("LCD.vhd", 197, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 287, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 78, 329); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("LCD.vhd", 245, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 2, 19); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 118, 259, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // af:JMenuItem (am:JPopupMenu, Popup:JWindow)
+selectCodeEditor("LCD.vhd", 120, 342); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 0, 128); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 357, 139); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 31 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LCD - Behavioral (LCD.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("LCD.vhd", 214, 304); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 199, 274); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 202, 239); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 260, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 226, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 266, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 72 seconds
+selectCodeEditor("LCD.vhd", 262, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("LCD.vhd", 257, 245); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 298, 242); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 45, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 206, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aV:y)
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 22:09:58 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 22:09:58 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 100 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 46 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "LCD.vhd", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("LCD.vhd", 1, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 1, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 104, 123, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_TOGGLE_LINE_COMMENTS, "Toggle Line Comments"); // af:JMenuItem (am:JPopupMenu, Popup:JWindow)
+selectCodeEditor("LCD.vhd", 188, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 209, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 186, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("LCD.vhd", 209, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+dismissDialog("Save Constraints"); // bL:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 22:13:29 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 41 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 920.004 ; gain = 0.000 
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 11 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aW:ak)
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Mon Jan 09 22:14:34 2017] Launched synth_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/synth_1/runme.log [Mon Jan 09 22:14:34 2017] Launched impl_1... Run output will be captured here: D:/Bricks/Bricks/project_1.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 97 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7z010_1"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {D:/Bricks/Bricks/project_1.runs/impl_1/LCD.bit} [lindex [get_hw_devices] 1] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// Tcl Message: program_hw_devices: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 920.004 ; gain = 0.000 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 1] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 8 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 60 seconds
+selectCodeEditor("LCD.vhd", 5, 177); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 1, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("LCD.vhd", 211, 231); // bH:N (JPanel:JComponent, cv:JFrame)

@@ -1,0 +1,7 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 27c0a5a1afe54dd2a8851892e2e10752 --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L unisims_ver -L unimacro_ver -L secureip --snapshot H_SYNC_1_TB_behav xil_defaultlib.H_SYNC_1_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-619] entity port x_pos does not match with type std_logic_vector of component port [D:/Xilinx/Projects/Bricks_6/project_1.srcs/sim_1/new/H_SYNC_1_TB.vhd:43]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

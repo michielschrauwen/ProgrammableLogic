@@ -1,0 +1,28 @@
+# compile vhdl design source files
+vhdl xpm  "D:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/V_SYNC.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/H_SYNC.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/CLK_DELAY.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/LCD.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/Block_1.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/BLOCK_2.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/BALL.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/DEFENSE.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/MOVE_X_DIRECTION.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/move_delay.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/MOVE_Y_DIRECTION.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/FSM_GAME.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/X_BOUNCE_CHECK.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/MOVE_BAR.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/imports/Xilinx/kcpsm6.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/TOUCH_POSITIONS.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V7.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/MOVE_TOUCHES.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sim_1/new/V_SYNC_TB.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sim_1/new/H_SYNC_1_TB.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sim_1/new/CLK_DELAY_TB.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sim_1/new/LCD_TB.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sim_1/new/MOVE_X_DIRECTION_TB.vhd"
+
+# Do not sort compile order
+nosort

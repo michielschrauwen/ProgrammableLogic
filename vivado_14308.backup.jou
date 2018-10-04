@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Jan 04 10:19:35 2017
+# Process ID: 14308
+# Current directory: D:/Bricks/Bricks
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11528 D:\Bricks\Bricks\project_1.xpr
+# Log file: D:/Bricks/Bricks/vivado.log
+# Journal file: D:/Bricks/Bricks\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Bricks/Bricks/project_1.xpr
+update_files -from_files D:/Bricks/Bricks/project_1.srcs/sources_1/new/TOUCHES_ASM_V5.vhd -to_files D:/Bricks/Bricks/project_1.srcs/sources_1/imports/new/TOUCHES_ASM_V4.vhd -filesets [get_filesets *]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
